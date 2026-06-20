@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700">
+    <section className="pt-56 pb-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}

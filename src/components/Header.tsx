@@ -19,10 +19,10 @@ const Header = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-blue-900 text-white py-2 text-sm">
+      <div className="bg-blue-900 text-white py-2 text-sm fixed w-full top-0 z-40">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <span>📞 +91 9219118092</span>
+            <span>📞 +91 92191 18092</span>
           </div>
           <div className="flex items-center space-x-4">
             <span className="hidden md:block">📍 High Court Campus, Canton, Dhoomanganj, Prayagraj, UP 211001</span>
@@ -34,7 +34,7 @@ const Header = () => {
       </div>
 
       {/* Main Header */}
-      <header className={`fixed w-full z-50 transition-all duration-300 ${
+      <header className={`fixed w-full z-50 transition-all duration-300 top-10 ${
         isScrolled ? 'bg-white shadow-lg py-2' : 'bg-white/95 backdrop-blur-sm py-4'
       }`}>
         <div className="container mx-auto px-4">
