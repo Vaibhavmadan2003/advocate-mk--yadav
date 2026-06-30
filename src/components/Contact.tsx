@@ -21,7 +21,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const whatsappMessage = `Hi Advocate MK Yadav, I'm ${formData.name}. ${formData.message}. Contact me at ${formData.phone}`;
-    const whatsappUrl = `https://wa.me/919219118092?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/919621147984?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -47,8 +47,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Phone</h3>
-                  <a href="tel:+919219118092" className="text-blue-900 font-semibold hover:underline">
-                    +91 9219118092
+                  <a href="tel:+919621147984" className="text-blue-900 font-semibold hover:underline">
+                    +91 96211 47984
                   </a>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Quick Connect</h3>
                   <a
-                    href="https://wa.me/919219118092"
+                    href="https://wa.me/919621147984"
                     className="inline-block bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-colors"
                   >
                     Message on WhatsApp
